@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\vageeshan.mankala\\AppData\\Local\\Continuum\\anaconda3\\envs\\PassportRecognizer\\python.exe",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen"
+}
