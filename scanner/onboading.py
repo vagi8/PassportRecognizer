@@ -13,7 +13,7 @@ from azure.storage.blob import BlockBlobService
 
 def blobsave(imgbyte,name):
     try:
-        block_blob_service = BlockBlobService(account_name='tbgonboarding', account_key='o9oQ1XdVZPaaAy4oD4XsFHSTYRF/z2Mz35aCuxjh3PNCq+a2A+XBbUH7lunww4462ETsVZnOPTGSNjI10hakPA==')
+        block_blob_service = BlockBlobService(account_name='tbgonboarding', account_key='')
         container_name ='documents'
         name=name+"_face"
         block_blob_service.create_blob_from_bytes(container_name,name+".jpg",imgbyte)
